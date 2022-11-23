@@ -21,4 +21,46 @@ body {
 }
 .navbar .logo span {
   color: var(--primary-color);
+}
+.navbar nav {
+  display: none;
+}
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+.navbar .mobile-menu {
+  cursor: pointer;
+}
+
+a {
+  color: rgba(68, 68, 68, 0.2666666667);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 5em 2em;
+}
+
+.hero {
+  text-align: center;
+}
+
+.left-col .subhead {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: gray;
+  letter-spacing: 0.2em;
+}
+.left-col h1 {
+  line-height: 1.3em;
+  font-size: 2.5em;
+  margin-top: 0.2em;
 }/*# sourceMappingURL=main.css.map */
